@@ -33,7 +33,7 @@ art = art.resize((px(aw), px(ah)), Image.LANCZOS)
 ax, ay = fx0 + px(m), px(BLEED + m)
 d.rectangle([ax - 14, ay - 14, ax + art.width + 14, ay + art.height + 14], fill=GOLD)
 img.paste(art, (ax, ay))
-t = "LANTERN LANE BOOKS"
+t = "CEDAR & INK PRESS"
 f = fB(72); tw_ = d.textlength(t, font=f)
 d.text((fx0 + (px(TW) - tw_) / 2, ay + art.height + px((band - 0.25) / 2)), t, font=f, fill=WHITE)
 
@@ -67,7 +67,7 @@ for i, n in enumerate(thumbs):
 # Barcode zone (KDP adds it): 2 x 1.2 in, 0.25 in from spine edge and bottom trim. Keep empty.
 bz = [px(BLEED + TW - 0.25 - 2.0), px(BLEED + TH - 0.25 - 1.2), px(BLEED + TW - 0.25), px(BLEED + TH - 0.25)]
 assert gy0 + th_in < BLEED + TH - 0.25 - 1.2, "thumbnails overlap barcode zone"
-d.text((L, H - px(BLEED + 0.7)), "LANTERN LANE BOOKS", font=fB(44), fill=GOLD)
+d.text((L, H - px(BLEED + 0.7)), "CEDAR & INK PRESS", font=fB(44), fill=GOLD)
 
 out_png = f"{D}/output/cover_wrap.png"
 img.save(out_png)
