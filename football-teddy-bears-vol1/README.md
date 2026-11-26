@@ -9,3 +9,4 @@
 - `scripts/`: one-off helper scripts (contact sheets)
 
 Model: Runway Nano Banana 2.1, 2K, 3:4, at 6 credits per image.
+- `output/interior_8.5x11.pdf`: **KDP interior**, 84 pages, 8.5 × 11 in, no bleed, B&W. Rebuild with `python3 scripts/build_interior.py .` (from this folder)

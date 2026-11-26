@@ -4,4 +4,4 @@ KDP colouring book projects.
 
 | Book | Status |
 |---|---|
-| [Football Teddy Bears – Vol. 1: Gridiron Grit](football-teddy-bears-vol1/) | 40 pages generated, final fixes in progress; interior PDF and cover next |
+| [Football Teddy Bears – Vol. 1: Gridiron Grit](football-teddy-bears-vol1/) | 40 pages final; interior PDF built (84 pp); cover next |
