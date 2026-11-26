@@ -39,3 +39,9 @@ page	title	task_id
 38	Overtime Winner	4a7a8441-d4da-495d-a4f8-a81d59d39ec4
 39	Championship Trophy	57ae4b6b-4930-4bf6-b859-6e0fb3bccea5
 40	Empty Rink	215cd248-0739-4721-b334-5bd2cb34fe25
+11	Breakaway (qc-fix: pose copied ref)	18e86367-f3a0-4bd8-827f-b2e014bff9ac
+14	Dangle (qc-fix: pose copied ref)	512fd963-5db6-458f-bd41-631402897a3a
+18	Spin Move (qc-fix: pose copied ref)	e1965c75-b120-453c-80ab-22696ceb1972
+19	One-Timer (qc-fix: pose copied ref)	e82822b6-4668-4fd0-b0e6-f4d6790f7ead
+26	Poke Check (qc-fix: stray colour, no helmet)	0b322b09-3252-4c84-af9d-6c5967ae36a8
+32	Outdoor Game (qc-fix: too similar to p27)	dafb0dea-7e50-40b8-8073-be44db94d2a5
